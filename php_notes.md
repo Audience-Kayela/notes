@@ -9,10 +9,13 @@ declare(strict_types=1);
 # variables
 
 ```php
-$greeting;
-$greeting_2;
-$name = 'Audience';
-$price = 5;
+
+$greeting = 'Hello'; // string
+$quantity = 5; // int
+$price = 5.20; // float
+$is_child = true; // boolean
+$name; // null
+
 ```
 
 # Echo command
@@ -182,8 +185,8 @@ Expressions consist of one or more constructs that evaluate to a single value
 
 ```php
 
-3 _ 5;
-$total = 3 _ 5;
+3 - 5;
+$total = 3 - 5;
 $greeting = 'Hi ' . 'Ivy';
 
 ```
