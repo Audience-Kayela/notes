@@ -496,7 +496,7 @@ $tax_rate = 0.2;
 
 function calculate*running_total($price, $quantity){
 global $tax_rate; // this variable is in the global scope
-static $running_total = 0; // this value will be remembered even after the function has run
+static $running_total = 0;
 $total = $price * $quantity;
 $tax   = $total _ $tax_rate;
 $running_total = $running_total + $total + $tax;
@@ -525,7 +525,7 @@ function calculate*prices($usd, $exchange_rates) {
 $prices = [
 'pound' => $usd * $exchange*rates['uk'],
 'euro' => $usd * $exchange_rates['eu'],
-'yen' => $usd \* $exchange_rates['jp'],
+'yen' => $usd * $exchange_rates['jp'],
 ];
 return $prices;
 }
@@ -701,11 +701,9 @@ public float $balance;
 
 ```php
 
-$this
+$this // Is known as a pseudo-variable and indicates that you want to access a property of this specific object
 
 ```
-
-Is known as a pseudo-variable and indicates that you want to access a property of this specific object
 
 ## Calling a method
 
@@ -761,7 +759,7 @@ public string $type,
 protected float $balance = 0.00, // this property has an optional value
 ) {}
 
-    public function deposit() { // getter
+    public function deposit() { // setter
 
     }
 
