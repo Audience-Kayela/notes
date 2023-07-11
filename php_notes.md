@@ -194,7 +194,7 @@ $greeting = 'Hi ' . 'Ivy';
 # Arithmetic operators
 
 Note: Arithemetic operator precendence applies
-to evaluations that 
+to evaluations that
 
 | Operator | Quick Description      |
 | -------- | ---------------------- |
@@ -231,10 +231,11 @@ to evaluations that
 | >=       | Greater or Equal   |
 | <=>      | Spaceship operator |
 
-The spaceship operator, compares both operands to each other
-results in 1 if left operand is greater
-results in -1 if right operand is greater
-results in 0 if both operands are equal
+## The spaceship operator, compares both operands to each other:
+
+    1. results in 1 if left operand is greater
+    2. results in -1 if right operand is greater
+    3. results in 0 if both operands are equal
 
 # Logical operators
 
