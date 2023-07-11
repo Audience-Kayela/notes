@@ -30,7 +30,7 @@ Is used to print to out to the browser
 
 ## Echo Shorthand
 
-Use when you only want to write a single value to the browser
+Use when you want to write only a single value to the browser
 
 ```php
 
@@ -66,8 +66,8 @@ $logged_in = true;
 
 ## Null
 
-It can only have the value null
-It Indicates that a value has not been set for a variable
+Null data type can only have the value null
+It Indicates that a variable value has not been set
 
 ## Updating variable values
 
@@ -156,9 +156,9 @@ They are comprised of arrays inside of arrays
 ```php
 
 $members = [
-['name' => 'Audience', 'age' => 36 , 'country' => 'Zimbabwe',],
-['name' => 'Emi', 'age' => 24, 'country' => 'Japan',],
-['name' => 'Luke', 'age' => 47 , 'country' => 'USA',],
+['name' => 'Audience', 'age' => 36 ,  'country' => 'Zimbabwe',],
+['name' => 'Emi',      'age' => 24,   'country' =>    'Japan',],
+['name' => 'Luke',     'age' => 47 ,  'country' =>      'USA',],
 ]
 
 ```
@@ -193,7 +193,8 @@ $greeting = 'Hi ' . 'Ivy';
 
 # Arithmetic operators
 
-Note: operator precendence applies
+Note: Arithemetic operator precendence applies
+to evaluations that 
 
 | Operator | Quick Description      |
 | -------- | ---------------------- |
@@ -230,7 +231,7 @@ Note: operator precendence applies
 | >=       | Greater or Equal   |
 | <=>      | Spaceship operator |
 
-<=> spaceship operators, compares both operands to each other
+The spaceship operator, compares both operands to each other
 results in 1 if left operand is greater
 results in -1 if right operand is greater
 results in 0 if both operands are equal
@@ -238,9 +239,9 @@ results in 0 if both operands are equal
 # Logical operators
 
 | Operator | Quick Description |
-| -------- | ----------------- | --- | --- |
+| -------- | ----------------- |
 | &&       | AND               |
-|          |                   |     | OR  |
+| \|\|     | OR                |
 | !        | NOT               |
 
 # Type juggling
