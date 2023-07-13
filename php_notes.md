@@ -881,3 +881,40 @@ $account = new Account($numbers, 'Savings', 10.00);
 ```
 
 # HTTP requests and responses
+
+Http: is a set of rules that specify how borwsers should request pages
+and how servers should format their response.
+This helps to understand what data is sent at each step.
+
+### When a browser requests a page
+
+The browser's address bar shows a URL which specifies how it can find
+that page. Each URL has:
+
+    1. A protocol (HTTP or HTTPS)
+
+    2. A host (The server to send the request to)
+
+    3. A path that identifies the requested file
+
+    4. An optional query string with additional data that the page
+     might need.
+
+When a query string is added to the end of a URL, each piece of data
+it sends is like a variable.
+It has:
+
+    1. A name that describes the data being sent
+        the name is the same each time the URL is used
+
+    2. The value for this piece of data. The value can
+        change each time the page is requested.
+
+    3. HTTP request headers (not shown in the main browser window)
+        headers hold data that servers may find helpful and are
+        also similar to a variable they have:
+
+        3.1. A name that describes what data is being sent
+            the name is the same each time the URL is used
+
+        3.2 A value for each piece of data
